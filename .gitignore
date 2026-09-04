@@ -1,0 +1,80 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 환경변수
+.env
+.env.*
+!.env.example
+
+# 설정값 파일
+config.php
+config.json
+secrets.json
+secret.json
+!config.example.*
+
+# 쉘 스크립트 값
+*.secret
+secret*.sh
+env.sh
+
+# 개인키·인증서
+*.pem
+*.key
+*.p12
+id_rsa*
+*.ppk
+.ssh/
+
+# 클라우드 자격증명
+credentials.json
+service-account*.json
+.aws/
+google-credentials.json
+firebase-adminsdk-*.json
+
+# Google OAuth
+client_secret*.json
+token.json
+
+# 서버 인증
+.htpasswd
+.netrc
+.npmrc
+deploy_key*
+auth.json
+
+# 쉘 이력
+.bash_history
+.mysql_history
+
+# DB 덤프·백업
+*dump*.sql
+*_seed_user.sql
+*.bak
+*.orig
+
+# 임시 파일
+*.tmp
